@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import CompoundComponent from "./Patterns/CompoundComponent";
+import ContextModule from "./Patterns/ContextModule";
+import FlexibleCompoundComponent from "./Patterns/FlexibleCompoundComponents";
+import PropsCollection from "./Patterns/PropsCollection";
+import PropsGetters from "./Patterns/PropsGetters";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <ContextModule /> */}
+      {/* <CompoundComponent /> */}
+      {/* <FlexibleCompoundComponent /> */}
+      {/* <PropsCollection /> */}
+      {/* <PropsGetters /> */}
+    </>
   );
 }
 
